@@ -1,7 +1,7 @@
 go-fsm-example
 ==============
 
-An example FSM implementation in Go using State functions (_or what I understood from [Lexical Scanning in Go](http://rspace.googlecode.com/hg/slide/lex.html#slide-16)_)
+An example FSM implementation in Go using State functions (or what I understood from [Lexical Scanning in Go](https://talks.golang.org/2011/lex.slide#16))
 
 The idea is simple, each state function returns the next state.
 ```go
